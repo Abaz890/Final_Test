@@ -1,6 +1,6 @@
 describe('App Component E2E', () => {
   beforeEach(() => {
-    cy.visit('/');
+    cy.visit('http://localhost:5173/');
   });
 
   it('renders Vite and React logos with correct links', () => {
